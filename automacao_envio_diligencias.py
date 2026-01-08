@@ -21,7 +21,7 @@ print(ticke_medio)
 #enviar email
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'juliocezarctt@gmail.com'
+mail.To = 'seuemail@outlook.com'
 mail.Subject = 'Relatório de Vendas por Loja'
 mail.HTMLBody = '''Prezado(a), boa tarde!
 Segue o relatório de vendas por cada loja
@@ -37,4 +37,5 @@ Ticket médio dos produtos em casa loja:
 
 Atenciosamente, Júlio Cézar
 '''
+
 mail.send()
