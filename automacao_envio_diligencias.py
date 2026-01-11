@@ -26,6 +26,4 @@ Ticket médio dos produtos em casa loja:
 
 Atenciosamente, Júlio Cézar
 '''
-
-mail.send()
-
+mail.Send()
